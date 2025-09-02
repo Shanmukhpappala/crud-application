@@ -6,7 +6,8 @@ import jwt from "jsonwebtoken";
 import cors from "cors";
 
 import User from "./user.js"; // your user model
-import config from "./config.js";
+import dotenv from "dotenv";
+dotenv.config();
 import Note from "./notes.js";
 
 const app = express();
@@ -83,7 +84,7 @@ app.delete('/notes/:id', authenticateToken, async (req, res) => {
 // ...existing code...
 
 // MongoDB connection
-mongoose.connect(config.mongoURI, {
+mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
