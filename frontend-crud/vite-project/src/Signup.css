@@ -1,0 +1,63 @@
+/* Signup page styles */
+.signup-container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 28px 24px 28px;
+  text-align: center;
+}
+.signup-container h2 {
+  margin-bottom: 24px;
+  color: #333;
+  font-weight: 600;
+}
+/* Make username and email fields larger and more visually appealing */
+.signup-form input {
+  width: 100%;
+  padding: 16px 14px;
+  margin-bottom: 22px;
+  border: 1.5px solid #b6c2e2;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  background: #f9fafb;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.04);
+}
+.signup-form input:focus {
+  border: 1.5px solid #6366f1;
+  outline: none;
+  background: #fff;
+}
+.signup-form button[type="submit"] {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.signup-form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #60a5fa 0%, #6366f1 100%);
+}
+.signup-msg {
+  margin: 12px 0 0 0;
+  color: #10b981;
+  font-weight: 500;
+  min-height: 24px;
+}
+.signup-goto {
+  margin-top: 18px;
+  background: none;
+  border: none;
+  color: #6366f1;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1rem;
+}
