@@ -1,0 +1,88 @@
+/* Login page styles */
+/* Login page styles - modern, soft, and visually appealing like signup */
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(99,102,241,0.10);
+  padding: 32px 28px 24px 28px;
+  text-align: center;
+}
+.login-container h2 {
+  margin-bottom: 24px;
+  color: #333;
+  font-weight: 600;
+}
+.login-form input {
+  width: 100%;
+  padding: 16px 14px;
+  margin-bottom: 22px;
+  border: 1.5px solid #b6c2e2;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  background: #f9fafb;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.04);
+}
+.login-form input:focus {
+  border: 1.5px solid #6366f1;
+  outline: none;
+  background: #fff;
+}
+.login-form .password-wrapper {
+  position: relative;
+}
+.login-form .show-password-btn {
+  position: absolute;
+  right: 15px;
+  top: 10%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #6366f1;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 50%;
+  transition: background 0.15s;
+  z-index: 2;
+}
+.login-form .show-password-btn:hover {
+  background: #f1f5fd;
+}
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+}
+.login-form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #60a5fa 0%, #6366f1 100%);
+  transform: scale(1.03);
+}
+.login-msg {
+
+  margin: 12px 0 0 0;
+  color: #ef4444;
+  font-weight: 500;
+  min-height: 24px;
+}
+.login-signup {
+  margin-top: 18px;
+  color: #6366f1;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.login-signup a {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 600;
+}
