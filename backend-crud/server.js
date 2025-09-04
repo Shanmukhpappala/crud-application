@@ -84,7 +84,7 @@ app.delete('/notes/:id', authenticateToken, async (req, res) => {
 // ...existing code...
 
 // MongoDB connection
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect(process.env.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
